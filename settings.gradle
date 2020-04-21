@@ -1,0 +1,3 @@
+includeBuild 'test-plugin'
+
+rootProject.name = 'gradle-property-test'

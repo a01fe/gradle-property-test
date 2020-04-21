@@ -1,0 +1,12 @@
+plugins {
+    id 'test.plugin.greeting'
+}
+
+foo {
+    thing1 = "This is thing1 in foo"
+    bars {
+        bar1 {
+            thing2 = "This is thing2 in bar1"
+        }
+    }
+}
